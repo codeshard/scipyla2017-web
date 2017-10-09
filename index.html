@@ -173,7 +173,7 @@
               <img src="assets/img/sched.png" class="img-circle" />
               <h3>AGENDA</h3>
               <p>Inf&oacute;rmese sobre el cronograma de actividades previstas
-              para los cuatro d&iacute;as de duraci&oacute;n del evento 
+              para los cuatro d&iacute;as de duraci&oacute;n del evento
               </p>
               <div class="col-md-4 marketing-action">
                 <a href="./schedule" class="btn btn-info center-block">VER M&Aacute;S</a>
@@ -617,6 +617,14 @@ ga('send', 'pageview');
 
       </script>
       <script src="assets/js/contact-form.js"></script>
-
+      <script src="assets/js/jquery.onepagenav.js"></script>
+      <script type="text/javascript">
+          $('.navbar.navbar-fixed-top .navbar-nav').onePageNav({
+              currentClass: 'active',
+              changeHash: false,
+              scrollSpeed: 400,
+              filter: ':not(.btn)'
+          });
+      </script>
       </body>
       </html>
